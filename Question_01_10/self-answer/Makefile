@@ -11,7 +11,7 @@ LDFLAGS = -L/usr/local/Cellar/opencv/4.7.0_2/lib/
 LDLIBS =  -lopencv_core -lopencv_highgui -lopencv_imgcodecs
 CXXVERSION = -std=c++11
 
-main: question_4.cpp
+main: question_10.cpp
 	$(CXX) $< -o $@ $(CXXFLAGS) $(CXXVERSION) $(LDFLAGS) $(LDLIBS)
 
 clean :
